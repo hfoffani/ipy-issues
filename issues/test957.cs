@@ -21,7 +21,7 @@ from os import path
 def f(*args):
     return f
 sys.settrace(f)
-path.abspath('Z:\\ipy\\issues\\LibPy.dll')
+path.abspath('Z:\\Documents\\ipy-issues\\issues\\LibPy.dll')
 def g(): pass
 g()
 ");

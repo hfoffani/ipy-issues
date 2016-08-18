@@ -10,4 +10,4 @@ for dir, blah, files in os.walk(basedir + 'Lib'):
             all_files.append(dir + '\\' + file)
 
 import clr
-clr.CompileModules('z:\\ipy\\issues\\LibPy.dll', *all_files)
+clr.CompileModules('z:\\Documents\\ipy-issues\\issues\\LibPy.dll', *all_files)
